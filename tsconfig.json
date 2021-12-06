@@ -1,0 +1,27 @@
+{
+    "ts-node": {
+        "compilerOptions": {
+            "module": "CommonJS"
+        }
+    },
+    "compilerOptions": {
+        "outDir": "./dist",
+        "baseUrl": ".",
+        "noImplicitAny": false,
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "jsx": "react",
+        "allowJs": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "importsNotUsedAsValues": "preserve",
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "checkJs": false,
+    },
+    "exclude": ["node_modules", "dist"],
+}
